@@ -7,7 +7,7 @@ class AssetSpider(scrapy.Spider):
     name = 'asset_spider'
     allowed_domains = ['assetstore.unity.com']
     base_url = 'https://assetstore.unity.com/packages/'
-    start_urls = ['https://assetstore.unity.com/?category=3d&release=180&version=6000&orderBy=1&page=0&rows=96']
+    start_urls = ['https://assetstore.unity.com/?category=2d&release=180&version=6000&orderBy=1&page=0&rows=96']
     # start_urls = ['https://assetstore.unity.com/packages/2d/gui/text-effects-300630']
     # start_urls = ['https://assetstore.unity.com/?category=2d%5C3d%5Cadd-ons%5Caudio%5Cessentials%5Ctemplates%5Ctools%5Cvfx&version=6000&release=31&orderBy=1&page=0&rows=96']
 
